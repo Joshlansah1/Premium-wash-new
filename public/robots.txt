@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /private
+
+Sitemap: https://www.premiumwashgh.com/sitemap.xml
+
+# Crawl delay in seconds
+Crawl-delay: 1
+
+# Google-specific rules
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0.5

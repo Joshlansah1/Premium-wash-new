@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+/* 
+Hero Title: text-5xl md:text-6xl font-extrabold
+Section Titles: text-3xl md:text-4xl font-bold
+Body Text: text-lg text-gray-600 leading-relaxed
+Buttons: uppercase text-sm font-medium tracking-wide
+*/
+
+:root {
+  /* === Colors === */
+  --white-bg: #fff; /* Light neutral background */
+  --sky-bg: #dff2fe; /* Light neutral background */
+  --primary-color: #3b82f6; /* Main brand (blue-500) */
+  --primary-hover: #2563eb; /* Hover brand */
+  --accent-color: #10b981; /* Accent (green for eco-focus) */
+  --gray-bg: #e5e7eb; /* Subtle gray (borders, inputs) */
+  --section-bg: #f9fafb;
+  --text-primary: #111827; /* Main text (gray-900) */
+  --text-secondary: #6b7280; /* Muted text (gray-500) */
+  --text-inverse: #ffffff; /* For buttons on dark bg */
+  --input-bg: #ffffff; /* Form input background */
+  --footer-bg: #0f172a;
+  /* === Typography === */
+  --font-primary: "Inter", sans-serif;
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*:disabled {
+  cursor: not-allowed;
+}
+
+/* Prevent font size inflation */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  /* font-size: 62.5%; */
+  scroll-padding-top: 5rem;
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  font-family: var(--font-primary);
+  background-color: var(--white-bg);
+  color: var(--text-primary);
+}
+
+@keyframes bubbleFloat {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translateY(-30px) scale(1.05);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 0.6;
+  }
+}
+
+.animate-bubble {
+  animation: bubbleFloat 16s ease-in-out infinite;
+}
+
+.float-0 {
+  animation-delay: 0s;
+}
+.float-1 {
+  animation-delay: 2s;
+}
+.float-2 {
+  animation-delay: 4s;
+}
+.float-3 {
+  animation-delay: 6s;
+}
+.float-4 {
+  animation-delay: 8s;
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.animate-spin-slow {
+  animation: spin-slow 4s linear infinite;
+}
