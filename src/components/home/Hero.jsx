@@ -101,14 +101,14 @@ function Hero() {
       >
         <NavLink
           to="/schedule-pickup"
-          className="bg-[var(--primary-color)] text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-[var(--primary-hover)] transition shadow-md flex items-center gap-2"
+          className="bg-[var(--primary-color)] text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-[var(--primary-hover)] transition shadow-md flex items-center justify-center gap-2 w-full sm:w-auto"
         >
           <MdLocalLaundryService className="text-xl" />
           Schedule Pickup
         </NavLink>
         <NavLink
           to="/services"
-          className="border-2 border-[var(--primary-color)] text-[var(--primary-color)] px-8 py-4 rounded-full font-semibold text-lg hover:bg-blue-50 transition flex items-center gap-2"
+          className="border-2 border-[var(--primary-color)] text-[var(--primary-color)] px-8 py-4 rounded-full font-semibold text-lg hover:bg-blue-50 transition flex items-center justify-center gap-2 w-full sm:w-auto"
         >
           View Services
         </NavLink>

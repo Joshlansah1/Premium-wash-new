@@ -49,14 +49,14 @@ const FinalCTA = () => {
       >
         <NavLink
           to="/schedule-pickup"
-          className="bg-white text-blue-700 px-8 py-4 rounded-full font-semibold text-lg hover:bg-blue-50 transition shadow-md flex items-center gap-2"
+          className="bg-white text-blue-700 px-8 py-4 rounded-full font-semibold text-lg hover:bg-blue-50 transition shadow-md flex items-center justify-center gap-2 w-full sm:w-auto"
         >
           <MdLocalLaundryService className="text-xl" />
           Schedule Pickup
         </NavLink>
         <NavLink
           to="/contact"
-          className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white/10 transition flex items-center gap-2"
+          className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white/10 transition flex items-center justify-center gap-2 w-full sm:w-auto"
         >
           Contact Us
         </NavLink>

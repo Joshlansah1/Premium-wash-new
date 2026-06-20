@@ -102,7 +102,7 @@ const TrackOrder = () => {
   };
 
   return (
-    <section className="bg-[var(--white-bg)] py-20 sm:py-34 px-6 min-h-screen">
+    <section className="bg-[var(--white-bg)] pt-28 pb-20 sm:py-34 px-6 min-h-screen">
       <div className="max-w-3xl mx-auto text-center">
         <motion.h2
           initial={{ opacity: 0, y: 30 }}

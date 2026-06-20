@@ -77,7 +77,7 @@ const Services = () => {
   return (
     <section
       id="services"
-      className="bg-[var(--white-bg)] sm:py-34 py-20 px-6 relative"
+      className="bg-[var(--white-bg)] sm:py-34 pt-28 pb-20 px-6 relative"
     >
       <AnimatedBackground />
 

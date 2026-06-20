@@ -23,7 +23,7 @@ const About = () => {
     <section className="bg-[var(--white-bg)] text-[var(--text-primary)] relative">
       <AnimatedBackground />
       {/* Hero */}
-      <div className="relative bg-[var(--primary-color)]  py-20 sm:py-34 text-white px-6 text-center">
+      <div className="relative bg-[var(--primary-color)] pt-28 pb-20 sm:py-34 text-white px-6 text-center">
         <motion.h1
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}

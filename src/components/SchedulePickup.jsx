@@ -128,7 +128,7 @@ const SchedulePickup = () => {
   };
 
   return (
-    <section id="request" className="py-20 sm:py-34 px-4 bg-[var(--white-bg)]">
+    <section id="request" className="pt-28 pb-20 sm:py-34 px-4 bg-[var(--white-bg)]">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-4xl font-bold text-[var(--text-primary)] mb-6">
           Schedule a Pickup

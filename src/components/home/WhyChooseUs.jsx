@@ -122,7 +122,7 @@ const WhyChooseUs = () => {
             whileHover={{ scale: 1.03 }}
             transition={{ duration: 0.5, delay: idx * 0.1 }}
             viewport={{ once: true }}
-            className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300"
+            className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300 text-center"
           >
             <motion.div
               animate={getIconAnimation(animation)}
