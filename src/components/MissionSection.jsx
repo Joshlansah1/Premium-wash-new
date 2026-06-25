@@ -29,7 +29,7 @@ const MissionSection = () => {
   const stats = [
     { label: "Happy Clients", count: 2500 },
     { label: "Clothes Cleaned", count: 180000 },
-    { label: "Locations", count: 2 },
+    { label: "Locations", count: 3 },
     { label: "Team Members", count: 12 },
   ];
 

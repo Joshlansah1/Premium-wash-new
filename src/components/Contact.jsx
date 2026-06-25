@@ -177,6 +177,16 @@ const Contact = () => {
                 </a>
               </p>
             </div>
+            <div>
+              <h4 className="text-lg font-semibold mb-1">Ayeduase Branch</h4>
+              <p>KNUST - St. Theresa's Hostel, Kumasi</p>
+              <p>
+                📞{" "}
+                <a href="tel:+233505613353" className="hover:underline">
+                  +233 505 613 353
+                </a>
+              </p>
+            </div>
             <p>
               📧{" "}
               <a
@@ -237,7 +247,9 @@ const Contact = () => {
           className="rounded-2xl shadow-md p-6 sm:p-10 bg-white space-y-6"
         >
           <div>
-            <label htmlFor="contact-name" className="block mb-1 font-medium">Full Name</label>
+            <label htmlFor="contact-name" className="block mb-1 font-medium">
+              Full Name
+            </label>
             <input
               id="contact-name"
               {...register("name", {
@@ -290,7 +302,9 @@ const Contact = () => {
           </div>
 
           <div>
-            <label htmlFor="contact-message" className="block mb-1 font-medium">Message</label>
+            <label htmlFor="contact-message" className="block mb-1 font-medium">
+              Message
+            </label>
             <textarea
               id="contact-message"
               rows={4}

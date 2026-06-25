@@ -65,7 +65,7 @@ const Pricing = () => {
             Laundry is weighed using a digital scale, and charged per kilogram.
           </p>
           <p className="text-xl font-bold text-[var(--primary-color)]">
-            GHS 10.00 per kg
+            GHS 12.00 per kg
           </p>
         </div>
 

@@ -128,7 +128,10 @@ const SchedulePickup = () => {
   };
 
   return (
-    <section id="request" className="pt-28 pb-20 sm:py-34 px-4 bg-[var(--white-bg)]">
+    <section
+      id="request"
+      className="pt-28 pb-20 sm:py-34 px-4 bg-[var(--white-bg)]"
+    >
       <div className="max-w-5xl mx-auto">
         <h2 className="text-4xl font-bold text-[var(--text-primary)] mb-6">
           Schedule a Pickup
@@ -144,7 +147,8 @@ const SchedulePickup = () => {
           <ul className="text-sm leading-relaxed">
             <li>
               • Laundry is charged at <strong>GH₵12.00 per kg</strong> at KNUST
-              branch and <strong>GH₵15.00 per kg</strong> at Danyame branch.
+              branch, <strong>GH₵12.00 per kg</strong> at Ayeduase branch and{" "}
+              <strong>GH₵15.00 per kg</strong> at Danyame branch.
             </li>
             <li>
               • Express Service: <strong>2–4 hours</strong>.
@@ -162,7 +166,12 @@ const SchedulePickup = () => {
         >
           {/* Name */}
           <div className="col-span-1">
-            <label htmlFor="pickup-name" className="block text-sm font-medium mb-1">Full Name</label>
+            <label
+              htmlFor="pickup-name"
+              className="block text-sm font-medium mb-1"
+            >
+              Full Name
+            </label>
             <input
               id="pickup-name"
               {...register("name", { required: "Name is required" })}
@@ -175,7 +184,10 @@ const SchedulePickup = () => {
 
           {/* Phone */}
           <div className="col-span-1">
-            <label htmlFor="pickup-phone" className="block text-sm font-medium mb-1">
+            <label
+              htmlFor="pickup-phone"
+              className="block text-sm font-medium mb-1"
+            >
               Phone Number
             </label>
             <Controller
@@ -222,7 +234,10 @@ const SchedulePickup = () => {
 
           {/* Pickup Date & Time */}
           <div className="col-span-1">
-            <label htmlFor="pickup-datetime" className="block text-sm font-medium mb-1">
+            <label
+              htmlFor="pickup-datetime"
+              className="block text-sm font-medium mb-1"
+            >
               Pickup Date & Time
             </label>
             <div>
@@ -257,7 +272,10 @@ const SchedulePickup = () => {
 
           {/* Address - Full width */}
           <div className="col-span-1 sm:col-span-2">
-            <label htmlFor="pickup-address" className="block text-sm font-medium mb-1">
+            <label
+              htmlFor="pickup-address"
+              className="block text-sm font-medium mb-1"
+            >
               Pickup Address{" "}
               <span className="text-gray-500 text-sm">(Optional)</span>
             </label>
@@ -316,7 +334,10 @@ const SchedulePickup = () => {
 
           {/* Email - Last field */}
           <div className="col-span-1 sm:col-span-2">
-            <label htmlFor="pickup-email" className="block text-sm font-medium mb-1">
+            <label
+              htmlFor="pickup-email"
+              className="block text-sm font-medium mb-1"
+            >
               Email <span className="text-gray-500 text-sm">(Optional)</span>
             </label>
             <input

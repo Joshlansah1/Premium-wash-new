@@ -13,6 +13,13 @@ const locations = [
     embedSrc:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63403.96902112422!2d-1.7081128783202877!3d6.678103000000009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdb97005813acb3%3A0x49beecec97dbb901!2sPREMIUM%20WASH!5e0!3m2!1sen!2sgh!4v1750091940080!5m2!1sen!2sgh",
   },
+  {
+    name: "Ayeduase Branch",
+    address: "KNUST - St. Theresa's Hostel, Kumasi",
+    googleMapsUrl: "https://maps.app.goo.gl/8EPEJKom1XjV4VpD8",
+    embedSrc:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d935.7630240667564!2d-1.562499700565707!3d6.6712160125163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdb95816b63349f%3A0xa2393c04e8c38803!2sEmpire%20Applestore!5e0!3m2!1sen!2sgh!4v1782375908531!5m2!1sen!2sgh",
+  },
 ];
 
 const LocationsMap = () => {

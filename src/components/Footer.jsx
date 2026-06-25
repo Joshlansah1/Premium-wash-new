@@ -53,6 +53,15 @@ const Footer = () => {
                 </a>
               </p>
             </li>
+            <li>
+              <p className="font-medium">Ayeduase Branch</p>
+              <p>KNUST - St. Theresa's Hostel, Kumasi</p>
+              <p>
+                <a href="tel:+233505613353" className="hover:underline">
+                  +233 505 613 353
+                </a>
+              </p>
+            </li>
           </ul>
         </div>
 
