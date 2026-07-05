@@ -7,6 +7,7 @@ import {
   createRoutesFromElements,
 } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
+import ErrorBoundary from "./ui/ErrorBoundary";
 
 const HostLayout = lazy(() => import("./components/HostLayout"));
 const Home = lazy(() => import("./components/home/Home"));
@@ -34,7 +35,9 @@ const router = createBrowserRouter(
 function App() {
   return (
     <>
-      <RouterProvider router={router} />
+      <ErrorBoundary>
+        <RouterProvider router={router} />
+      </ErrorBoundary>
       <Toaster
         position="top-center"
         gutter={12}
