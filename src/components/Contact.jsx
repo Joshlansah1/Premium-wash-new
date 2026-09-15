@@ -187,6 +187,18 @@ const Contact = () => {
                 </a>
               </p>
             </div>
+            <div>
+              <h4 className="text-lg font-semibold mb-1">
+                Garden City University Branch
+              </h4>
+              <p>Premium Wash, Garden City University, Kenyase</p>
+              <p>
+                📞{" "}
+                <a href="tel:+233597106070" className="hover:underline">
+                  +233 597 106 070
+                </a>
+              </p>
+            </div>
             <p>
               📧{" "}
               <a

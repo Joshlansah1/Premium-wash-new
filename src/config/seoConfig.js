@@ -30,6 +30,14 @@ export const seoConfig = {
     canonical: "https://www.premiumwashgh.com/services",
     ogImage: "https://www.premiumwashgh.com/laundry.avif",
   },
+  "/gallery": {
+    title: "Gallery - Premium Wash Laundry",
+    description:
+      "Take a look at our facility, team, and the quality laundry results Premium Wash delivers every day.",
+    keywords: "laundry gallery, photos, before and after, premium wash",
+    canonical: "https://www.premiumwashgh.com/gallery",
+    ogImage: "https://www.premiumwashgh.com/laundry.avif",
+  },
   "/contact": {
     title: "Contact Premium Wash - Get In Touch",
     description:

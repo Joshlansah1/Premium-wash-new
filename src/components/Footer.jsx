@@ -62,6 +62,15 @@ const Footer = () => {
                 </a>
               </p>
             </li>
+            <li>
+              <p className="font-medium">Garden City University Branch</p>
+              <p>Premium Wash, Garden City University, Kenyase</p>
+              <p>
+                <a href="tel:+233597106070" className="hover:underline">
+                  +233 597 106 070
+                </a>
+              </p>
+            </li>
           </ul>
         </div>
 

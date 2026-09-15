@@ -14,6 +14,7 @@ const Home = lazy(() => import("./components/home/Home"));
 const About = lazy(() => import("./components/About"));
 const Services = lazy(() => import("./components/Services"));
 const Contact = lazy(() => import("./components/Contact"));
+const Gallery = lazy(() => import("./components/Gallery"));
 const SchedulePickup = lazy(() => import("./components/SchedulePickup"));
 const TrackOrder = lazy(() => import("./components/TrackOrder"));
 const PageNotFound = lazy(() => import("./ui/PageNotFound"));
@@ -26,10 +27,11 @@ const router = createBrowserRouter(
       <Route path="about" element={<About />} />
       <Route path="services" element={<Services />} />
       <Route path="contact" element={<Contact />} />
+      {/* <Route path="gallery" element={<Gallery />} /> */}
       <Route path="track-order" element={<TrackOrder />} />
       <Route path="*" element={<PageNotFound />} />
-    </Route>
-  )
+    </Route>,
+  ),
 );
 
 function App() {
